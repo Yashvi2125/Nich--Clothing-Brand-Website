@@ -112,13 +112,13 @@ body{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: white;
     transition:0.3s ease;
 }
 
 #navbar li a:hover, 
 #navbar li a.active {
-    color: #088178;
+    color: black;
 }
 
 #navbar li a.active::after,
@@ -451,16 +451,17 @@ footer .copyright{
     height: 90vh;
     background-size: cover;
     display: flex;
-    align-items: center; /* Vertically center the content */
-    justify-content: flex-start; /* Align content to the left */
-    text-align: left; /* Align text to the left */
+    align-items: center; 
+    justify-content: flex-start; 
+    text-align: left; 
     padding: 14px;
-    box-sizing: border-box; /* Ensure padding is included in the height */
+    box-sizing: border-box; 
 }
 
 #page-header h2,
 #page-header p{
     color: black;
+    font-family: 'Satisfy', cursive;
 }
 
 
